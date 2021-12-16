@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: rgb(70, 51, 87);
+}
+
+.counter {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.buttonAddSub {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.counter h1 {
+	background-color: burlywood;
+	padding: 1rem;
+	border-radius: 0.8rem;
+}
+
+.counter h2 {
+	background-color: rgb(207, 207, 207);
+	padding: 1rem;
+	border-radius: 0.8rem;
+}
